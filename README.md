@@ -11,11 +11,11 @@ Saya Tattha Maharany Yasmin Akbar dengan NIM 2201805 mengerjakan Latihan 2 dalam
 ## Desain Program 
 Terdiri dari 3 class yaitu **Shirt**, **Clothing** dan **Product**, Product itu extends dari Clothing atau Clothing adalah orang tua dari Product, lalu Clothing extend dari Shirt atau Shirt adalah orang tua dari Clothing. Kenapa Shirt menjadi orang tua (Shirt merupakan bagian dari Clothing), ini dikarenakan ada atribut id pada class Product, sehingga untuk mempermudahkan dalam melakukan inputan mulai dari memasukkan value untuk id product.
 
-Didalam class **Shirt** memiliki 4 Atribut, yaitu : 
+Didalam class **Shirt** memiliki 2 Atribut, yaitu : 
 * Color
 * Sleeve Type
 
-Didalam class **Clothing** memiliki 4 Atribut, yaitu : 
+Didalam class **Clothing** memiliki 3 Atribut, yaitu : 
 * Size
 * Material
 * Gender
