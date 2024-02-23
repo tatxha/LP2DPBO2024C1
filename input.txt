@@ -1,0 +1,107 @@
+UNTUK CPP, dan JAVA
+-------------------------------------------------
+10
+001 Nike_Air_Max_90 Nike 1500000 42 Mesh M Black Short 
+002 Adidas_Ultraboost Adidas 1300000 40 Knit M White Long 
+003 Vans_Old_Skool Vans 900000 38 Canvas U Red Short 
+004 Converse_Chuck_Taylor_All_Star Converse 800000 39 Canvas U Blue Long 
+005 Puma_Suede_Classic Puma 1000000 41 Suede M Green Short 
+006 Reebok_Classic_Leather Reebok 1200000 43 Leather F Gray Long 
+007 New_Balance_574 New_Balance 1100000 42 Mesh M Blue Short 
+008 Asics_Gel-Lyte_III Asics_Gel 950000 40 Knit F Yellow Long 
+009 Fila_Disruptor_II Fila 850000 39 Canvas F Pink Short 
+010 Under_Armour_HOVR_Phantom Under_Armour 1400000 41 Mesh M Black Long 
+
+UNTUK PYTHON
+-------------------------------------------------
+10
+001
+Nike_Air_Max_90
+Nike
+1500000
+42
+Mesh
+M
+Black
+Short
+002
+Adidas_Ultraboost
+Adidas
+1300000
+40
+Knit
+M
+White
+Long
+003
+Vans_Old_Skool
+Vans
+900000
+38
+Canvas
+U
+Red
+Short
+004
+Converse_Chuck_Taylor_All_Star
+Converse
+800000
+39
+Canvas
+U
+Blue
+Long
+005
+Puma_Suede_Classic
+Puma
+1000000
+41
+Suede
+M
+Green
+Short
+006
+Reebok_Classic_Leather
+Reebok
+1200000
+43
+Leather
+F
+Gray
+Long
+007
+New_Balance_574
+New_Balance
+1100000
+42
+Mesh
+M
+Blue
+Short
+008
+Asics_Gel-Lyte_III
+Asics_Gel
+950000
+40
+Knit
+F
+Yellow
+Long
+009
+Fila_Disruptor_II
+Fila
+850000
+39
+Canvas
+F
+Pink
+Short
+010
+Under_Armour_HOVR_Phantom
+Under_Armour
+1400000
+41
+Mesh
+M
+Black
+Long 
