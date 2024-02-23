@@ -4,51 +4,47 @@
 
 Saya Tattha Maharany Yasmin Akbar dengan NIM 2201805 mengerjakan Latihan 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
+## Diagram
+![diagram](https://github.com/tatxha/LP2DPBO2024C1/assets/134766457/87e452a6-391a-4267-bf81-c9d1988e3833)
+
 ## Desain Program 
-Program terdiri dari 1 class yaitu **DPR**
+Terdiri dari 3 class yaitu **Shirt**, **Clothing** dan **Product**, Product itu extends dari Clothing atau Clothing adalah orang tua dari Product, lalu Clothing extend dari Shirt atau Shirt adalah orang tua dari Clothing. Kenapa Shirt menjadi orang tua (Shirt merupakan bagian dari Clothing), ini dikarenakan ada atribut id pada class Product, sehingga untuk mempermudahkan dalam melakukan inputan mulai dari memasukkan value untuk id product.
 
-Didalam class **DPR** memiliki 4 Atribut, yaitu : 
-* ID
-* Nama
-* Bidang
-* Partai
+Didalam class **Shirt** memiliki 4 Atribut, yaitu : 
+* Color
+* Sleeve Type
 
-lalu untuk bahasa **PHP** ada atribut tambahan yaitu 
-* Foto
+Didalam class **Clothing** memiliki 4 Atribut, yaitu : 
+* Size
+* Material
+* Gender
+
+Didalam class **Product** memiliki 4 Atribut, yaitu : 
+* Id Product
+* Name
+* Brand
+* Price
 
 ## Alur Program
-- Untuk menjalankan program, tinggal run saja program tergantung dari bahasa yang ingin di run
-- Terdapat 5 menu, Yaitu
-* `A` atau `a`  yang merupakan menu **ADD** untuk menambahkan data
-* `U` atau `u`  yang merupakan menu **UPDATE** untuk mengubah data yang dipilih berdasarkan IDnya
-* `D` atau `d`  yang merupakan menu **DELETE** untuk menghapus data yang dipilih berdasarkan IDnya
-* `V` atau `v`  yang merupakan menu **VIEW** untuk menampilkan semua data yang ada
-* `E` atau `e`  yang merupakan menu **EXIT** untuk keluar dari program
-
-Program saya mempunyai 1 Primary key, Yaitu **ID**, Oleh karena itu program ini memiliki beberapa aturan seperti berikut:
-* ketika ingin menambah data, maka ID harus unik(tidak ada ID yang sama saat menambahkan/mengubah data)
-* ketika ingin mengubah data, maka ID harus ada, jika tidak ada ID, maka data tidak dapat di ubah
-* ketika ingin menghapus data, menggunakan ID, jika tidak ada ID yang terdaftar maka data tidak bisa dihapus
+Program ini memiliki alur mulai dari instansiasi objek dari kelas **Product**, mengisi nilai atribut-atribut dari objek Product yang diinstansiasi sebelumnya menggunakan Setter methods, memasukkan objek tersebut ke dalam list, hingga berhasil menampilkan data beberapa objek Mahasiswa di dalam list dengan menggunakan Getter methods.
 
 ## Dokumentasi 
 
 ### Dokumentasi PHP
-<img width="960" alt="Screenshot 2024-02-14 195316" src="https://github.com/tatxha/LP1DPBO2024C1/assets/134766457/90618abb-d407-4683-b00c-a0bc7b54e3d9">
+![ss_PHP](https://github.com/tatxha/LP2DPBO2024C1/assets/134766457/7130e8de-2b10-4823-b79d-a21e162c31f1)
+
 
 ### Dokumentasi CPP
-![Screenshot (921)](https://github.com/tatxha/LP1DPBO2024C1/assets/134766457/4a727cf8-cc47-42fa-a1e5-90e0ad8de8b6)
-![Screenshot (922)](https://github.com/tatxha/LP1DPBO2024C1/assets/134766457/025eab82-cb3d-4043-9180-4e521d7cbb3b)
-![Screenshot (923)](https://github.com/tatxha/LP1DPBO2024C1/assets/134766457/c81ea02f-ce50-483e-8ba3-ae7045270d4e)
+![ss_CPP](https://github.com/tatxha/LP2DPBO2024C1/assets/134766457/98156a13-6d60-4f31-b12d-93310487b34e)
+
 
 ### Dokumentasi Java
-![Screenshot (918)](https://github.com/tatxha/LP1DPBO2024C1/assets/134766457/daa786a1-204e-4f2c-b9e9-b7175ed00cde)
-![Screenshot (919)](https://github.com/tatxha/LP1DPBO2024C1/assets/134766457/f812fb96-d3c7-4a12-989a-1961431daac2)
-![Screenshot (920)](https://github.com/tatxha/LP1DPBO2024C1/assets/134766457/56d3528d-1fb4-449c-b10f-caad08d67af0)
+![ss_JAVA](https://github.com/tatxha/LP2DPBO2024C1/assets/134766457/3e3415a9-848f-4aae-946d-ecc9f2c81f45)
+
 
 ### Dokumentasi Python
-![ss_py1](https://github.com/tatxha/LP1DPBO2024C1/assets/134766457/4b834142-3550-4373-91bf-135b6f3c8093)
-![ss_py2](https://github.com/tatxha/LP1DPBO2024C1/assets/134766457/057d39fe-8db2-4535-98ec-35739ce7b75c)
-![ss_py3](https://github.com/tatxha/LP1DPBO2024C1/assets/134766457/b24211c9-c5bf-4689-bc04-21534ce231f3)
+![ss_PYTHON](https://github.com/tatxha/LP2DPBO2024C1/assets/134766457/0b0a3fab-dcdb-42ba-9ad3-f45fb6d1e941)
+
 
 
 
