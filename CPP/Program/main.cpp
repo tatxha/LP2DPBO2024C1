@@ -38,11 +38,10 @@ int main()
 
     // Menghitung panjang terpanjang untuk setiap kolom
     vector<int> longestData = {2, 4, 5, 5, 4, 8, 5, 11}; // Panjang dari header tabel
-    // for (int i = 0; i < list_product.size(); i++) {
+    
     for (auto it = list_product.begin(); it != list_product.end(); it++) {
         // id
         if (longestData[0] < it->get_id_product().length()) longestData[0] = it->get_id_product().length();
-        // longestData[0] = it->get_idProduct().length();
         // name
         if (longestData[1] < it->get_name().length()) longestData[1] = it->get_name().length();
         // brand
@@ -170,9 +169,5 @@ int main()
     }
     cout << endl;
     
-    // for(auto it = list_product.begin(); it != list_product.end(); it++)  
-    // {
-    //     cout << it->get_id_product() << ' ' << it->get_name() << ' ' << it->get_brand() << ' ' << it->get_price() << ' ' << it->get_size() << ' ' << it->get_material() << ' ' << it->get_gender() << ' ' << it->get_color() << ' ' << it->get_sleeve_type() << '\n';
-    // }  
     return 0;
 }
