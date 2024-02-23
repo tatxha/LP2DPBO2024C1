@@ -5,7 +5,8 @@
 Saya Tattha Maharany Yasmin Akbar dengan NIM 2201805 mengerjakan Latihan 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ## Diagram
-![diagram](https://github.com/tatxha/LP2DPBO2024C1/assets/134766457/87e452a6-391a-4267-bf81-c9d1988e3833)
+![Untitled Diagram drawio](https://github.com/tatxha/LP2DPBO2024C1/assets/134766457/1f65a90a-b36d-4f63-8c8d-2f62baa0efa9)
+
 
 ## Desain Program 
 Terdiri dari 3 class yaitu **Shirt**, **Clothing** dan **Product**, Product itu extends dari Clothing atau Clothing adalah orang tua dari Product, lalu Clothing extend dari Shirt atau Shirt adalah orang tua dari Clothing. Kenapa Shirt menjadi orang tua (Shirt merupakan bagian dari Clothing), ini dikarenakan ada atribut id pada class Product, sehingga untuk mempermudahkan dalam melakukan inputan mulai dari memasukkan value untuk id product.
